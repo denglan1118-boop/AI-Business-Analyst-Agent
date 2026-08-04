@@ -611,3 +611,7 @@ AI Agent
 AI Agent Developer | Data Analyst
 Building intelligent data analysis systems with LLM, LangGraph and Python
 
+# 📄 License
+
+This project is licensed under the MIT License.
+
