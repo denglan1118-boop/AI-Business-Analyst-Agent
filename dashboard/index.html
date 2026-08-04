@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+
+<title>
+AI Business Analyst Dashboard
+</title>
+
+
+<style>
+
+
+body{
+
+    margin:0;
+
+    background:#111827;
+
+    font-family:
+    "Microsoft YaHei",
+    Arial;
+
+    color:white;
+
+}
+
+
+
+.header{
+
+    padding:25px;
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+
+
+.container{
+
+    padding:20px;
+
+}
+
+
+
+/* KPI */
+
+.cards{
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+
+
+.card{
+
+
+    background:#1f2937;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    width:220px;
+
+
+}
+
+
+
+.card h3{
+
+    color:#9ca3af;
+
+}
+
+
+.value{
+
+    font-size:30px;
+
+    color:#60a5fa;
+
+}
+
+
+
+/* 图表 */
+
+
+.chart-box{
+
+
+    background:#1f2937;
+
+    margin-top:25px;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+
+
+.chart-box img{
+
+
+    width:700px;
+
+    max-width:100%;
+
+
+}
+
+
+
+/* 表格 */
+
+
+table{
+
+
+    width:100%;
+
+    border-collapse:collapse;
+
+
+}
+
+
+th,td{
+
+
+    padding:12px;
+
+    border-bottom:1px solid #374151;
+
+
+}
+
+
+th{
+
+
+    color:#60a5fa;
+
+}
+
+
+button{
+
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 20px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+
+<div class="header">
+
+📊 AI Business Analyst Dashboard
+
+</div>
+
+
+
+<div class="container">
+
+
+
+<button onclick="loadData()">
+
+刷新分析
+
+</button>
+
+
+<button onclick="downloadPDF()">
+
+PDF报告
+
+</button>
+
+
+<button onclick="downloadExcel()">
+
+Excel报告
+
+</button>
+
+
+
+
+<h2>
+核心指标
+</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+总销售额
+</h3>
+
+<div id="sales"
+class="value">
+
+-
+</div>
+
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+总利润
+</h3>
+
+<div id="profit"
+class="value">
+
+-
+</div>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+平均利润率
+</h3>
+
+<div id="margin"
+class="value">
+
+-
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+客户数量
+</h3>
+
+<div id="customers"
+class="value">
+-
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+高价值客户
+</h3>
+
+<div id="vip_customers"
+class="value">
+-
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+平均RFM评分
+</h3>
+
+<div id="rfm_score"
+class="value">
+-
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<h2>
+销售趋势
+</h2>
+
+
+<div class="chart-box">
+
+
+<img id="sales_chart">
+
+
+</div>
+
+
+
+
+
+<h2>
+客户价值分析
+</h2>
+
+<div class="chart-box">
+
+<div id="customer_level"
+style="
+width:600px;
+height:400px;
+">
+
+</div>
+
+</div>
+
+
+<div class="chart-box">
+
+
+<img id="rfm_chart">
+
+
+</div>
+
+
+
+
+<h2>
+Top10客户
+</h2>
+
+
+<div class="chart-box">
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>
+客户
+</th>
+
+
+<th>
+消费金额
+</th>
+
+
+<th>
+购买次数
+</th>
+
+
+<th>
+RFM
+</th>
+
+</tr>
+
+
+</thead>
+
+
+
+<tbody id="customer_table">
+
+
+</tbody>
+
+
+</table>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+const API="";
+
+
+
+async function loadData(){
+
+
+let res =
+await fetch(
+"/analyze",
+{
+
+method:"POST",
+
+headers:{
+"Content-Type":
+"application/json"
+},
+
+body:JSON.stringify({
+
+question:
+"分析客户价值和销售趋势"
+
+})
+
+});
+
+
+let data =
+await res.json();
+
+
+
+let dashboard =
+data.dashboard || {};
+
+
+
+console.log(
+"dashboard:",
+dashboard
+);
+
+
+
+// =================
+// KPI
+// =================
+
+
+let kpi =
+dashboard.kpi || {};
+
+
+
+document.getElementById(
+"sales"
+).innerHTML =
+(kpi.total_sales || 0)
+.toLocaleString();
+
+
+
+document.getElementById(
+"profit"
+).innerHTML =
+(kpi.total_profit || 0)
+.toLocaleString();
+
+
+
+document.getElementById(
+"margin"
+).innerHTML =
+(kpi.average_profit_margin || 0)
++"%";
+
+
+
+
+// =================
+// 客户数据
+// =================
+
+
+let customer =
+dashboard.customer || {};
+
+
+
+document.getElementById(
+"customers"
+).innerHTML =
+customer.customer_count || 0;
+
+
+
+document.getElementById(
+"vip_customers"
+).innerHTML =
+
+customer
+.level_distribution
+?.["高价值客户"]
+||0;
+
+
+
+document.getElementById(
+"rfm_score"
+).innerHTML =
+
+customer.average_rfm_score
+||0;
+
+
+
+// =================
+// 图表
+// =================
+
+
+let charts =
+dashboard.charts || {};
+
+
+
+console.log(
+"charts:",
+charts
+);
+
+
+
+if(
+charts.sales_trend
+)
+
+{
+
+document.getElementById(
+"sales_chart"
+).src =
+charts.sales_trend;
+
+}
+
+
+
+if(
+charts.rfm_scatter
+)
+
+{
+
+document.getElementById(
+"rfm_chart"
+).src =
+charts.rfm_scatter;
+
+}
+
+
+
+
+// =================
+// Top10客户
+// =================
+
+
+let tbody =
+document.getElementById(
+"customer_table"
+);
+
+
+
+tbody.innerHTML="";
+
+
+
+(customer.top10_customer || [])
+.forEach(c=>{
+
+
+tbody.innerHTML +=
+
+`
+
+<tr>
+
+<td>
+${c["Customer Name"]}
+</td>
+
+
+<td>
+${Number(c.Monetary).toFixed(2)}
+</td>
+
+
+<td>
+${c.Frequency}
+</td>
+
+
+<td>
+${c.RFM_Score}
+</td>
+
+
+</tr>
+
+`
+
+});
+
+
+
+
+// =================
+// 客户分层饼图
+// =================
+
+
+
+let level =
+customer.level_distribution || {};
+
+
+
+let chart =
+echarts.init(
+document.getElementById(
+"customer_level"
+)
+);
+
+
+
+chart.setOption({
+
+title:{
+
+text:"客户价值分层"
+
+},
+
+
+tooltip:{},
+
+
+series:[
+
+{
+
+type:"pie",
+
+radius:"60%",
+
+
+data:[
+
+{
+
+name:"高价值客户",
+
+value:
+level["高价值客户"] || 0
+
+},
+
+
+{
+
+name:"潜力客户",
+
+value:
+level["潜力客户"] || 0
+
+},
+
+
+{
+
+name:"普通客户",
+
+value:
+level["普通客户"] || 0
+
+}
+
+
+]
+
+}
+
+]
+
+
+});
+
+
+
+}
+
+
+
+
+
+function downloadPDF(){
+
+
+window.open(
+
+"/report/pdf"
+
+);
+
+
+}
+
+
+
+
+function downloadExcel(){
+
+
+window.open(
+
+"/report/excel"
+
+);
+
+
+}
+
+
+
+loadData();
+
+
+
+</script>

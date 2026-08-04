@@ -1,0 +1,308 @@
+{
+    "analysis": {
+        "rfm": {
+            "customer_count": 793,
+            "level_count": {
+                "潜力客户": 293,
+                "普通客户": 279,
+                "高价值客户": 221
+            },
+            "top_customer": [
+                {
+                    "Customer Name": "Ken Lonsdale",
+                    "Monetary": 155927.519,
+                    "Frequency": 319
+                },
+                {
+                    "Customer Name": "Sanjit Engle",
+                    "Monetary": 134303.818,
+                    "Frequency": 209
+                },
+                {
+                    "Customer Name": "Clay Ludtke",
+                    "Monetary": 130566.552,
+                    "Frequency": 336
+                },
+                {
+                    "Customer Name": "Adrian Barton",
+                    "Monetary": 130262.139,
+                    "Frequency": 180
+                },
+                {
+                    "Customer Name": "Sanjit Chand",
+                    "Monetary": 127281.00600000001,
+                    "Frequency": 198
+                },
+                {
+                    "Customer Name": "Sean Miller",
+                    "Monetary": 125215.25,
+                    "Frequency": 75
+                },
+                {
+                    "Customer Name": "Edward Hooks",
+                    "Monetary": 123730.56,
+                    "Frequency": 384
+                },
+                {
+                    "Customer Name": "Greg Tran",
+                    "Monetary": 118201.2,
+                    "Frequency": 290
+                },
+                {
+                    "Customer Name": "Seth Vernon",
+                    "Monetary": 114709.5,
+                    "Frequency": 320
+                },
+                {
+                    "Customer Name": "John Lee",
+                    "Monetary": 107799.153,
+                    "Frequency": 374
+                }
+            ]
+        },
+        "sales": {
+            "total_sales": 16389641.610399999,
+            "order_count": 71945,
+            "max_month": {
+                "Month": "2017-11",
+                "Sales": 787924.0842
+            },
+            "min_month": {
+                "Month": "2014-02",
+                "Sales": 34405.064
+            },
+            "monthly_sales": [
+                {
+                    "Month": "2014-01",
+                    "Sales": 113930.327
+                },
+                {
+                    "Month": "2014-02",
+                    "Sales": 34405.064
+                },
+                {
+                    "Month": "2014-03",
+                    "Sales": 334394.398
+                },
+                {
+                    "Month": "2014-04",
+                    "Sales": 203889.467
+                },
+                {
+                    "Month": "2014-05",
+                    "Sales": 162044.042
+                },
+                {
+                    "Month": "2014-06",
+                    "Sales": 225716.2954
+                },
+                {
+                    "Month": "2014-07",
+                    "Sales": 285262.708
+                },
+                {
+                    "Month": "2014-08",
+                    "Sales": 190941.5435
+                },
+                {
+                    "Month": "2014-09",
+                    "Sales": 580009.1952
+                },
+                {
+                    "Month": "2014-10",
+                    "Sales": 237505.263
+                },
+                {
+                    "Month": "2014-11",
+                    "Sales": 577269.185
+                },
+                {
+                    "Month": "2014-12",
+                    "Sales": 508196.2755
+                },
+                {
+                    "Month": "2015-01",
+                    "Sales": 128040.07
+                },
+                {
+                    "Month": "2015-02",
+                    "Sales": 85505.318
+                },
+                {
+                    "Month": "2015-03",
+                    "Sales": 247561.9602
+                },
+                {
+                    "Month": "2015-04",
+                    "Sales": 245902.413
+                },
+                {
+                    "Month": "2015-05",
+                    "Sales": 224123.652
+                },
+                {
+                    "Month": "2015-06",
+                    "Sales": 189634.43600000002
+                },
+                {
+                    "Month": "2015-07",
+                    "Sales": 183214.684
+                },
+                {
+                    "Month": "2015-08",
+                    "Sales": 249858.62780000002
+                },
+                {
+                    "Month": "2015-09",
+                    "Sales": 442095.776
+                },
+                {
+                    "Month": "2015-10",
+                    "Sales": 218627.296
+                },
+                {
+                    "Month": "2015-11",
+                    "Sales": 590653.349
+                },
+                {
+                    "Month": "2015-12",
+                    "Sales": 543448.3024
+                },
+                {
+                    "Month": "2016-01",
+                    "Sales": 133659.144
+                },
+                {
+                    "Month": "2016-02",
+                    "Sales": 190290.915
+                },
+                {
+                    "Month": "2016-03",
+                    "Sales": 386702.693
+                },
+                {
+                    "Month": "2016-04",
+                    "Sales": 243639.758
+                },
+                {
+                    "Month": "2016-05",
+                    "Sales": 439006.50800000003
+                },
+                {
+                    "Month": "2016-06",
+                    "Sales": 294047.12
+                },
+                {
+                    "Month": "2016-07",
+                    "Sales": 279915.788
+                },
+                {
+                    "Month": "2016-08",
+                    "Sales": 220706.187
+                },
+                {
+                    "Month": "2016-09",
+                    "Sales": 530901.3557
+                },
+                {
+                    "Month": "2016-10",
+                    "Sales": 415029.139
+                },
+                {
+                    "Month": "2016-11",
+                    "Sales": 571043.6256
+                },
+                {
+                    "Month": "2016-12",
+                    "Sales": 766118.58
+                },
+                {
+                    "Month": "2017-01",
+                    "Sales": 292047.049
+                },
+                {
+                    "Month": "2017-02",
+                    "Sales": 127411.5532
+                },
+                {
+                    "Month": "2017-03",
+                    "Sales": 408805.6532
+                },
+                {
+                    "Month": "2017-04",
+                    "Sales": 261804.7054
+                },
+                {
+                    "Month": "2017-05",
+                    "Sales": 331392.6276
+                },
+                {
+                    "Month": "2017-06",
+                    "Sales": 394068.7281
+                },
+                {
+                    "Month": "2017-07",
+                    "Sales": 323756.575
+                },
+                {
+                    "Month": "2017-08",
+                    "Sales": 492467.258
+                },
+                {
+                    "Month": "2017-09",
+                    "Sales": 636776.933
+                },
+                {
+                    "Month": "2017-10",
+                    "Sales": 471505.1988
+                },
+                {
+                    "Month": "2017-11",
+                    "Sales": 787924.0842
+                },
+                {
+                    "Month": "2017-12",
+                    "Sales": 588390.7836
+                }
+            ]
+        }
+    },
+    "visualization": {
+        "monthly_sales_trend": "images/monthly_sales_trend.png",
+        "customer_segment": "images/customer_segment.png",
+        "top10_customer": "images/top10_customer_sales.png"
+    },
+    "insight": {
+        "customer": "高价值客户占比较低，需要加强客户维护，提高客户生命周期价值。",
+        "customer_concentration": "客户贡献较分散，收入结构较稳定。",
+        "sales": "整体销售呈增长趋势，首末月份增长416.45%。",
+        "actions": [
+            "针对高价值客户建立VIP维护体系",
+            "针对潜力客户开展精准营销和复购提升",
+            "结合销售旺季提前制定营销策略"
+        ]
+    },
+    "chart_summary": {
+        "sales_chart": "\n\n销售趋势分析：\n\n销售整体呈增长趋势。\n\n最高销售月份为：\n2017-11\n\n销售额达到：\n787,924.08 元。\n\n从长期趋势来看，\n企业销售存在明显周期波动，\n建议结合旺季提前制定营销策略。\n\n",
+        "segment_chart": "\n\n\n客户分层分析：\n\n当前共有 793 名客户。\n\n其中高价值客户：\n\n221 人\n\n占比：\n\n27.9%\n\n\n企业客户存在明显价值分层，\n需要重点维护高价值客户，\n同时提升潜力客户转化率。\n\n",
+        "top_customer_chart": "\n\n\nTop10客户分析：\n\n最高价值客户：\n\nKen Lonsdale\n\n\n累计消费：\n\n155,927.52 元\n\n\n核心客户贡献明显，\n建议建立VIP客户运营机制。\n\n"
+    },
+    "memory": {
+        "current": {
+            "time": "2026-07-27 21:14:35",
+            "question": "分析客户价值和销售趋势",
+            "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+            "customer_count": 793,
+            "total_sales": 16389641.610399999,
+            "order_count": 71945,
+            "insight": {},
+            "visualization": {
+                "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+                "customer_segment": "visualization\\customer_segment.png",
+                "top10_customer": "visualization\\top10_customer_sales.png"
+            }
+        },
+        "history_count": 9
+    },
+    "create_time": "2026-07-27 21:14:35"
+}
