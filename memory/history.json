@@ -1,0 +1,774 @@
+[
+    {
+        "time": "2026-07-27 14:29:09",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 14:33:55",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 14:40:52",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 20:53:30",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 20:57:40",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:01:56",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:02:21",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:14:14",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:14:35",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:20:14",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:24:40",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:44:29",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:46:25",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:49:02",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:54:45",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 21:58:07",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 22:01:53",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 22:23:42",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 22:58:40",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 23:34:22",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 23:40:00",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-27 23:42:12",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 00:02:31",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\n            c.\"Customer ID\",\n\n            c.\"Customer Name\",\n\n            o.\"Order Date\",\n\n            o.\"Sales\"\n\n\n        FROM Orders o\n\n\n        JOIN Customers c\n\n\n        ON o.\"Customer ID\" = c.\"Customer ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 16389641.610399999,
+        "order_count": 71945,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 13:56:45",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "visualization/category_sales.png",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 15:02:47",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "visualization/category_sales.png",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 16:54:31",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "visualization/category_sales.png",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 17:14:15",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "visualization/category_sales.png",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 17:23:13",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 17:42:14",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 17:47:38",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization/top10_customer_value.png",
+            "top10_customer_clv": "visualization/top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization/region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 18:42:53",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 18:46:18",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 18:54:30",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 19:25:25",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 19:32:51",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 19:43:52",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-28 20:12:26",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 19:08:33",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 20:37:25",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 20:50:03",
+        "question": "分析客户产品销售排名",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 20:50:04",
+        "question": "分析客户产品销售排名",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 21:17:46",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 21:34:10",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "visualization\\customer_segment.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-29 22:58:26",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "customer_segment": "",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-30 00:41:30",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "rfm_matrix": "",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-07-31 23:26:59",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "rfm_matrix": "",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-08-01 16:40:38",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "rfm_matrix": "visualization\\rfm_matrix.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    },
+    {
+        "time": "2026-08-01 16:47:13",
+        "question": "分析客户价值和销售趋势",
+        "sql": "\n\n        SELECT\n\nc.\"Customer ID\",\nc.\"Customer Name\",\n\no.\"Order Date\",\no.\"Sales\",\n\nc.\"Region\",\n\np.\"Category\"\n\n\nFROM Orders o\n\n\nJOIN Customers c\n\nON o.\"Customer ID\" = c.\"Customer ID\"\n\n\nJOIN Products p\n\nON o.\"Product ID\" = p.\"Product ID\"\n\n        ",
+        "customer_count": 793,
+        "total_sales": 17114928.461400002,
+        "order_count": 74378,
+        "insight": {},
+        "visualization": {
+            "monthly_sales_trend": "visualization\\monthly_sales_trend.png",
+            "rfm_matrix": "visualization\\rfm_matrix.png",
+            "top10_customer": "visualization\\top10_customer_sales.png",
+            "top10_customer_value": "visualization\\top10_customer_value.png",
+            "top10_customer_clv": "visualization\\top10_customer_clv.png",
+            "category_sales": "visualization\\category_sales.png",
+            "region_sales": "visualization\\region_sales.png"
+        }
+    }
+]
